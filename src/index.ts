@@ -86,7 +86,6 @@ export async function getRandomWord(inputOptions?:Partial<GetRandomWordsOptions>
     for(let attempts = 0; attempts < 100; attempts++) {
         const n = 1 + Math.floor(Math.random() * totalWords)
         const word = await getNthLine(options.destinationFullPath, n)
-        console.log(n, word)
         if (word.length >= options.minLength) {
             result = word
             break
