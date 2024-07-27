@@ -1,2 +1,5 @@
 yarn.lock
 src/test.ts
+pnpm-lock.yaml
+node_modules/**/*
+dist/**/*
