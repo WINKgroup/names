@@ -1,6 +1,6 @@
 {
   "name": "@winkgroup/names",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "library to get list of names",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
